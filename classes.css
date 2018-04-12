@@ -1,0 +1,63 @@
+.grid
+{
+  display: grid;
+}
+
+.single {
+  grid-template-columns: auto;
+}
+
+.two-columns
+{
+  grid-template-columns: auto auto;
+}
+
+.two-rows
+{
+  grid-template-rows: auto auto;
+}
+
+.golden-columns
+{
+  grid-template-columns: 2fr 1fr;
+}
+
+.golden-rows
+{
+  grid-template-rows: 2fr 1fr;
+}
+
+.inverse-golden-columns
+{
+  grid-template-columns: 1fr 2fr;
+}
+
+.inverse-golden-rows
+{
+  grid-template-rows: 1fr 2fr;
+}
+
+.three-columns
+{
+  grid-template-columns: auto auto auto;
+}
+
+.three-rows
+{
+  grid-template-rows: auto auto auto;
+}
+
+.four-columns
+{
+  grid-template-columns: auto auto auto auto;
+}
+
+.four-rows
+{
+  grid-template-columns: auto auto auto auto;
+}
+
+.subgrid
+{
+  display: inline-grid;
+}
