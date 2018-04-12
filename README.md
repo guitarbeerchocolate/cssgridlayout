@@ -1,6 +1,7 @@
 # cssgridlayout
 A collection of CSS classes to be used in the building of a website.
 These classes are based on the W3C CSS Grid Layout system.
+You can use the index.html as a test file. Just copy and paste the examples below to see how they appear in the browser.
 ## Naming convention
 ### grid
 Declare as a grid.
@@ -130,4 +131,14 @@ Begins a subgrid.
   </div>
   <section>The section 2</section>
 </div>
+```
+### Device responsive
+Consider using media queries to make the grid more device responsive.
+#### Example
+```
+@media (min-width: 48em) and (max-width: 64em) {
+  .grid {
+    grid-template-columns: auto;
+  }
+}
 ```

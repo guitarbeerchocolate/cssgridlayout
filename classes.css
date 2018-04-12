@@ -1,5 +1,4 @@
-.grid
-{
+.grid {
   display: grid;
 }
 
@@ -7,57 +6,46 @@
   grid-template-columns: auto;
 }
 
-.two-columns
-{
+.two-columns {
   grid-template-columns: auto auto;
 }
 
-.two-rows
-{
+.two-rows {
   grid-template-rows: auto auto;
 }
 
-.golden-columns
-{
+.golden-columns {
   grid-template-columns: 2fr 1fr;
 }
 
-.golden-rows
-{
+.golden-rows {
   grid-template-rows: 2fr 1fr;
 }
 
-.inverse-golden-columns
-{
+.inverse-golden-columns {
   grid-template-columns: 1fr 2fr;
 }
 
-.inverse-golden-rows
-{
+.inverse-golden-rows {
   grid-template-rows: 1fr 2fr;
 }
 
-.three-columns
-{
+.three-columns {
   grid-template-columns: auto auto auto;
 }
 
-.three-rows
-{
+.three-rows {
   grid-template-rows: auto auto auto;
 }
 
-.four-columns
-{
+.four-columns {
   grid-template-columns: auto auto auto auto;
 }
 
-.four-rows
-{
+.four-rows {
   grid-template-columns: auto auto auto auto;
 }
 
-.subgrid
-{
+.subgrid {
   display: inline-grid;
 }
